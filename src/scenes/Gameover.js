@@ -39,11 +39,12 @@ class Gameover extends Phaser.Scene{
         this.add.text(game.config.width/2, game.config.height/2 - 150, 'GAMEOVER!', menuConfig).setOrigin(0.5);
         this.add.text(game.config.width/2, game.config.height/2, 'Press R to restart').setOrigin(.5)
         this.add.text(game.config.width/2, game.config.height/2 + 15, 'Press Space for Menu').setOrigin(.5)
-        this.add.text(game.config.width/2, game.config.height/2 + 30, 'Dodge Barrels to Survive!').setOrigin(.5)
-        this.add.text(game.config.width/2, game.config.height/2 + 45, 'Credits:').setOrigin(.5)
-        this.add.text(game.config.width/2, game.config.height/2 + 60, 'LeshyLabs - Texture Atlas, Sounds - JFXR, Music - SoundStripe, Sprites - mariouniverse.com & PISKEL').setOrigin(.5)
+        this.add.text(game.config.width/2, game.config.height/2 + 80, 'Credits:').setOrigin(.5)
+        this.add.text(game.config.width/2, game.config.height/2 + 100, 'LeshyLabs - Texture Atlas | Sound Effects - JFXR ').setOrigin(.5)
+        this.add.text(game.config.width/2, game.config.height/2 + 115, 'Music - SoundStripe | Sprites - mariouniverse.com & PISKEL').setOrigin(.5)
 
 
+        
 
 
     }   
